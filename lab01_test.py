@@ -1,3 +1,4 @@
+
 import lab01
 import sys
 
@@ -12,3 +13,4 @@ def test_main(capsys):
     sys.stderr.write('correct output:\n')
     sys.stderr.write(correct_output + '\n')
     assert captured.out == correct_output # verify that the output is a match
+
