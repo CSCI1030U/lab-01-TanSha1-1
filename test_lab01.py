@@ -1,4 +1,4 @@
-def main():
+def test_main():
     cost_per_item = 19.99
     quantity = 5 
 
@@ -29,5 +29,5 @@ def main():
     # expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
 
 if __name__ == "__main__":
-    main()
+    test_main()
     

@@ -1,9 +1,10 @@
+
 import lab01
 import sys
 
 # This function tests your lab 01 code, ensuring that it prints the correct output
 def test_main(capsys):
-    lab01.main() # run the student's code
+    lab01.py() # run the student's code
     captured = capsys.readouterr()
     sys.stderr.write('actual output:\n')
     sys.stderr.write(captured.out + '\n')
